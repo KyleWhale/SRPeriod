@@ -156,7 +156,7 @@ static NSMutableDictionary <NSString* ,NSNumber *> *_zfPlayRecords;
     self.periodManager.presentStateChanged = ^(id  _Nonnull asset, SRPrimaryStagePeriodState state) {
         @zf_strongify(self)
         if (self.presentStateChanged) self.presentStateChanged(asset, state);
-        if ([self.controlView respondsToSelector:@selector(veryPractice:presentPoliteStateChangedpresentPoliteStateChangedpresentPoliteStateChanged:)]) {
+        if ([self.controlView respondsToSelector:@selector(veryPractice:presentPoliteStateChanged:)]) {
             [self.controlView veryPractice:self presentPoliteStateChanged:state];
         }
     };

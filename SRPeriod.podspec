@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SRPeriod"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Temp SRPeriod."
 
   # This description is used to generate tags and improve search results.
