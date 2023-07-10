@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01B9FEC92A5BE64200D4F164 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FEC82A5BE64200D4F164 /* AppDelegate.m */; };
+		01B9FECF2A5BE64200D4F164 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FECE2A5BE64200D4F164 /* ViewController.m */; };
+		01B9FED22A5BE64200D4F164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01B9FED02A5BE64200D4F164 /* Main.storyboard */; };
+		01B9FED42A5BE64500D4F164 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01B9FED32A5BE64500D4F164 /* Assets.xcassets */; };
+		01B9FED72A5BE64500D4F164 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01B9FED52A5BE64500D4F164 /* LaunchScreen.storyboard */; };
+		01B9FEDA2A5BE64500D4F164 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FED92A5BE64500D4F164 /* main.m */; };
+		01B9FF312A5BE65B00D4F164 /* SRLandscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FEE22A5BE65B00D4F164 /* SRLandscapeViewController.m */; };
+		01B9FF322A5BE65B00D4F164 /* SRPeriodController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FEE32A5BE65B00D4F164 /* SRPeriodController.m */; };
+		01B9FF332A5BE65B00D4F164 /* UIScrollView+conditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FEE42A5BE65B00D4F164 /* UIScrollView+conditions.m */; };
+		01B9FF342A5BE65B00D4F164 /* SRPortraitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FEE92A5BE65B00D4F164 /* SRPortraitViewController.m */; };
+		01B9FF352A5BE65B00D4F164 /* SRReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FEED2A5BE65B00D4F164 /* SRReachabilityManager.m */; };
+		01B9FF362A5BE65B00D4F164 /* SRPeriodGestureControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FEEF2A5BE65B00D4F164 /* SRPeriodGestureControl.m */; };
+		01B9FF372A5BE65B00D4F164 /* SRPeriodView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FEF02A5BE65B00D4F164 /* SRPeriodView.m */; };
+		01B9FF382A5BE65B00D4F164 /* SRPeriodLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FEF12A5BE65B00D4F164 /* SRPeriodLogManager.m */; };
+		01B9FF392A5BE65B00D4F164 /* SRAutoScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FEF22A5BE65B00D4F164 /* SRAutoScrollLabel.m */; };
+		01B9FF3A2A5BE65B00D4F164 /* SRKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FEF42A5BE65B00D4F164 /* SRKVOController.m */; };
+		01B9FF3B2A5BE65B00D4F164 /* SRPersentInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FEFB2A5BE65B00D4F164 /* SRPersentInteractiveTransition.m */; };
+		01B9FF3C2A5BE65B00D4F164 /* SRLandscapeViewController_iOS15.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FEFC2A5BE65B00D4F164 /* SRLandscapeViewController_iOS15.m */; };
+		01B9FF3D2A5BE65B00D4F164 /* SRLandscapeRotationManager_iOS16.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FEFE2A5BE65B00D4F164 /* SRLandscapeRotationManager_iOS16.m */; };
+		01B9FF3E2A5BE65B00D4F164 /* SRLandscapeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FEFF2A5BE65B00D4F164 /* SRLandscapeWindow.m */; };
+		01B9FF3F2A5BE65B00D4F164 /* SRLandscapeRotationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FF002A5BE65B00D4F164 /* SRLandscapeRotationManager.m */; };
+		01B9FF402A5BE65B00D4F164 /* SRFloatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FF072A5BE65B00D4F164 /* SRFloatView.m */; };
+		01B9FF412A5BE65B00D4F164 /* SROrientationObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FF082A5BE65B00D4F164 /* SROrientationObserver.m */; };
+		01B9FF422A5BE65B00D4F164 /* SRPeriodNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FF092A5BE65B00D4F164 /* SRPeriodNotification.m */; };
+		01B9FF432A5BE65B00D4F164 /* SRPeriodTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FF0A2A5BE65B00D4F164 /* SRPeriodTransition.m */; };
+		01B9FF442A5BE65B00D4F164 /* SRLandscapeRotationManager_iOS15.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FF0B2A5BE65B00D4F164 /* SRLandscapeRotationManager_iOS15.m */; };
+		01B9FF452A5BE65B00D4F164 /* SRPeriod.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 01B9FF0E2A5BE65B00D4F164 /* SRPeriod.bundle */; };
+		01B9FF462A5BE65B00D4F164 /* UIView+SRFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FF102A5BE65B00D4F164 /* UIView+SRFrame.m */; };
+		01B9FF472A5BE65B00D4F164 /* SRPeriodStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FF112A5BE65B00D4F164 /* SRPeriodStatusBar.m */; };
+		01B9FF482A5BE65B00D4F164 /* SRBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FF132A5BE65B00D4F164 /* SRBaseView.m */; };
+		01B9FF492A5BE65B00D4F164 /* SRPortraitControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FF162A5BE65B00D4F164 /* SRPortraitControlView.m */; };
+		01B9FF4A2A5BE65B00D4F164 /* SRLightControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FF192A5BE65B00D4F164 /* SRLightControlView.m */; };
+		01B9FF4B2A5BE65B00D4F164 /* SRPeriodActionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FF1A2A5BE65B00D4F164 /* SRPeriodActionManager.m */; };
+		01B9FF4C2A5BE65B00D4F164 /* SRUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FF1B2A5BE65B00D4F164 /* SRUtilities.m */; };
+		01B9FF4D2A5BE65B00D4F164 /* SRPeriodControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FF1F2A5BE65B00D4F164 /* SRPeriodControlView.m */; };
+		01B9FF4E2A5BE65B00D4F164 /* SRPeriodManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FF202A5BE65B00D4F164 /* SRPeriodManager.m */; };
+		01B9FF4F2A5BE65B00D4F164 /* SRSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FF242A5BE65B00D4F164 /* SRSliderView.m */; };
+		01B9FF502A5BE65B00D4F164 /* SRLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FF262A5BE65B00D4F164 /* SRLoadingView.m */; };
+		01B9FF512A5BE65B00D4F164 /* SRNetworkSpeedMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FF282A5BE65B00D4F164 /* SRNetworkSpeedMonitor.m */; };
+		01B9FF522A5BE65B00D4F164 /* SRSpeedLaughView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FF292A5BE65B00D4F164 /* SRSpeedLaughView.m */; };
+		01B9FF532A5BE65B00D4F164 /* UIImageView+SRCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FF2B2A5BE65B00D4F164 /* UIImageView+SRCache.m */; };
+		01B9FF542A5BE65B00D4F164 /* SRSmallFloatControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FF2D2A5BE65B00D4F164 /* SRSmallFloatControlView.m */; };
+		01B9FF552A5BE65B00D4F164 /* SRVehicleBrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9FF2E2A5BE65B00D4F164 /* SRVehicleBrightnessView.m */; };
+		F756A85C31DD235C76060ACD /* Pods_SRPeriod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0BA1AF169D78ED9B178268 /* Pods_SRPeriod.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01B9FEC42A5BE64200D4F164 /* SRPeriod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SRPeriod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01B9FEC72A5BE64200D4F164 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01B9FEC82A5BE64200D4F164 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01B9FECD2A5BE64200D4F164 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		01B9FECE2A5BE64200D4F164 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01B9FED12A5BE64200D4F164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01B9FED32A5BE64500D4F164 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01B9FED62A5BE64500D4F164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01B9FED82A5BE64500D4F164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01B9FED92A5BE64500D4F164 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01B9FEE22A5BE65B00D4F164 /* SRLandscapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRLandscapeViewController.m; sourceTree = "<group>"; };
+		01B9FEE32A5BE65B00D4F164 /* SRPeriodController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRPeriodController.m; sourceTree = "<group>"; };
+		01B9FEE42A5BE65B00D4F164 /* UIScrollView+conditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+conditions.m"; sourceTree = "<group>"; };
+		01B9FEE52A5BE65B00D4F164 /* SRLandscapeWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRLandscapeWindow.h; sourceTree = "<group>"; };
+		01B9FEE62A5BE65B00D4F164 /* SRLandscapeRotationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRLandscapeRotationManager.h; sourceTree = "<group>"; };
+		01B9FEE72A5BE65B00D4F164 /* SRLandscapeRotationManager_iOS16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRLandscapeRotationManager_iOS16.h; sourceTree = "<group>"; };
+		01B9FEE82A5BE65B00D4F164 /* SRPrimaryViewControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRPrimaryViewControl.h; sourceTree = "<group>"; };
+		01B9FEE92A5BE65B00D4F164 /* SRPortraitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRPortraitViewController.m; sourceTree = "<group>"; };
+		01B9FEEA2A5BE65B00D4F164 /* SRPrimaryConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRPrimaryConst.h; sourceTree = "<group>"; };
+		01B9FEEB2A5BE65B00D4F164 /* SRLandscapeViewController_iOS15.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRLandscapeViewController_iOS15.h; sourceTree = "<group>"; };
+		01B9FEEC2A5BE65B00D4F164 /* SRPersentInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRPersentInteractiveTransition.h; sourceTree = "<group>"; };
+		01B9FEED2A5BE65B00D4F164 /* SRReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRReachabilityManager.m; sourceTree = "<group>"; };
+		01B9FEEE2A5BE65B00D4F164 /* SRFloatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRFloatView.h; sourceTree = "<group>"; };
+		01B9FEEF2A5BE65B00D4F164 /* SRPeriodGestureControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRPeriodGestureControl.m; sourceTree = "<group>"; };
+		01B9FEF02A5BE65B00D4F164 /* SRPeriodView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRPeriodView.m; sourceTree = "<group>"; };
+		01B9FEF12A5BE65B00D4F164 /* SRPeriodLogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRPeriodLogManager.m; sourceTree = "<group>"; };
+		01B9FEF22A5BE65B00D4F164 /* SRAutoScrollLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRAutoScrollLabel.m; sourceTree = "<group>"; };
+		01B9FEF32A5BE65B00D4F164 /* SRPrimaryStage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRPrimaryStage.h; sourceTree = "<group>"; };
+		01B9FEF42A5BE65B00D4F164 /* SRKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRKVOController.m; sourceTree = "<group>"; };
+		01B9FEF52A5BE65B00D4F164 /* SRLandscapeRotationManager_iOS15.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRLandscapeRotationManager_iOS15.h; sourceTree = "<group>"; };
+		01B9FEF62A5BE65B00D4F164 /* SRPeriodTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRPeriodTransition.h; sourceTree = "<group>"; };
+		01B9FEF72A5BE65B00D4F164 /* SRPeriodNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRPeriodNotification.h; sourceTree = "<group>"; };
+		01B9FEF82A5BE65B00D4F164 /* SRPeriodStateWithback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRPeriodStateWithback.h; sourceTree = "<group>"; };
+		01B9FEF92A5BE65B00D4F164 /* SROrientationObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SROrientationObserver.h; sourceTree = "<group>"; };
+		01B9FEFA2A5BE65B00D4F164 /* SRLandscapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRLandscapeViewController.h; sourceTree = "<group>"; };
+		01B9FEFB2A5BE65B00D4F164 /* SRPersentInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRPersentInteractiveTransition.m; sourceTree = "<group>"; };
+		01B9FEFC2A5BE65B00D4F164 /* SRLandscapeViewController_iOS15.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRLandscapeViewController_iOS15.m; sourceTree = "<group>"; };
+		01B9FEFD2A5BE65B00D4F164 /* SRPortraitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRPortraitViewController.h; sourceTree = "<group>"; };
+		01B9FEFE2A5BE65B00D4F164 /* SRLandscapeRotationManager_iOS16.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRLandscapeRotationManager_iOS16.m; sourceTree = "<group>"; };
+		01B9FEFF2A5BE65B00D4F164 /* SRLandscapeWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRLandscapeWindow.m; sourceTree = "<group>"; };
+		01B9FF002A5BE65B00D4F164 /* SRLandscapeRotationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRLandscapeRotationManager.m; sourceTree = "<group>"; };
+		01B9FF012A5BE65B00D4F164 /* UIScrollView+conditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+conditions.h"; sourceTree = "<group>"; };
+		01B9FF022A5BE65B00D4F164 /* SRPeriodController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRPeriodController.h; sourceTree = "<group>"; };
+		01B9FF032A5BE65B00D4F164 /* SRPeriodLogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRPeriodLogManager.h; sourceTree = "<group>"; };
+		01B9FF042A5BE65B00D4F164 /* SRPeriodView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRPeriodView.h; sourceTree = "<group>"; };
+		01B9FF052A5BE65B00D4F164 /* SRPeriodGestureControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRPeriodGestureControl.h; sourceTree = "<group>"; };
+		01B9FF062A5BE65B00D4F164 /* SRReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRReachabilityManager.h; sourceTree = "<group>"; };
+		01B9FF072A5BE65B00D4F164 /* SRFloatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRFloatView.m; sourceTree = "<group>"; };
+		01B9FF082A5BE65B00D4F164 /* SROrientationObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SROrientationObserver.m; sourceTree = "<group>"; };
+		01B9FF092A5BE65B00D4F164 /* SRPeriodNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRPeriodNotification.m; sourceTree = "<group>"; };
+		01B9FF0A2A5BE65B00D4F164 /* SRPeriodTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRPeriodTransition.m; sourceTree = "<group>"; };
+		01B9FF0B2A5BE65B00D4F164 /* SRLandscapeRotationManager_iOS15.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRLandscapeRotationManager_iOS15.m; sourceTree = "<group>"; };
+		01B9FF0C2A5BE65B00D4F164 /* SRKVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRKVOController.h; sourceTree = "<group>"; };
+		01B9FF0D2A5BE65B00D4F164 /* SRAutoScrollLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRAutoScrollLabel.h; sourceTree = "<group>"; };
+		01B9FF0E2A5BE65B00D4F164 /* SRPeriod.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SRPeriod.bundle; sourceTree = "<group>"; };
+		01B9FF102A5BE65B00D4F164 /* UIView+SRFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SRFrame.m"; sourceTree = "<group>"; };
+		01B9FF112A5BE65B00D4F164 /* SRPeriodStatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRPeriodStatusBar.m; sourceTree = "<group>"; };
+		01B9FF122A5BE65B00D4F164 /* SRPeriodProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRPeriodProtocol.h; sourceTree = "<group>"; };
+		01B9FF132A5BE65B00D4F164 /* SRBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRBaseView.m; sourceTree = "<group>"; };
+		01B9FF142A5BE65B00D4F164 /* SRSpeedLaughView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRSpeedLaughView.h; sourceTree = "<group>"; };
+		01B9FF152A5BE65B00D4F164 /* SRNetworkSpeedMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRNetworkSpeedMonitor.h; sourceTree = "<group>"; };
+		01B9FF162A5BE65B00D4F164 /* SRPortraitControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRPortraitControlView.m; sourceTree = "<group>"; };
+		01B9FF172A5BE65B00D4F164 /* SRLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRLoadingView.h; sourceTree = "<group>"; };
+		01B9FF182A5BE65B00D4F164 /* SRSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRSliderView.h; sourceTree = "<group>"; };
+		01B9FF192A5BE65B00D4F164 /* SRLightControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRLightControlView.m; sourceTree = "<group>"; };
+		01B9FF1A2A5BE65B00D4F164 /* SRPeriodActionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRPeriodActionManager.m; sourceTree = "<group>"; };
+		01B9FF1B2A5BE65B00D4F164 /* SRUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRUtilities.m; sourceTree = "<group>"; };
+		01B9FF1C2A5BE65B00D4F164 /* SRVehicleBrightnessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRVehicleBrightnessView.h; sourceTree = "<group>"; };
+		01B9FF1D2A5BE65B00D4F164 /* SRSmallFloatControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRSmallFloatControlView.h; sourceTree = "<group>"; };
+		01B9FF1E2A5BE65B00D4F164 /* UIImageView+SRCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SRCache.h"; sourceTree = "<group>"; };
+		01B9FF1F2A5BE65B00D4F164 /* SRPeriodControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRPeriodControlView.m; sourceTree = "<group>"; };
+		01B9FF202A5BE65B00D4F164 /* SRPeriodManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRPeriodManager.m; sourceTree = "<group>"; };
+		01B9FF212A5BE65B00D4F164 /* SRPeriodStatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRPeriodStatusBar.h; sourceTree = "<group>"; };
+		01B9FF222A5BE65B00D4F164 /* UIView+SRFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SRFrame.h"; sourceTree = "<group>"; };
+		01B9FF232A5BE65B00D4F164 /* SRBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRBaseView.h; sourceTree = "<group>"; };
+		01B9FF242A5BE65B00D4F164 /* SRSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRSliderView.m; sourceTree = "<group>"; };
+		01B9FF252A5BE65B00D4F164 /* SRLightControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRLightControlView.h; sourceTree = "<group>"; };
+		01B9FF262A5BE65B00D4F164 /* SRLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRLoadingView.m; sourceTree = "<group>"; };
+		01B9FF272A5BE65B00D4F164 /* SRPortraitControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRPortraitControlView.h; sourceTree = "<group>"; };
+		01B9FF282A5BE65B00D4F164 /* SRNetworkSpeedMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRNetworkSpeedMonitor.m; sourceTree = "<group>"; };
+		01B9FF292A5BE65B00D4F164 /* SRSpeedLaughView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRSpeedLaughView.m; sourceTree = "<group>"; };
+		01B9FF2A2A5BE65B00D4F164 /* SRPeriodManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRPeriodManager.h; sourceTree = "<group>"; };
+		01B9FF2B2A5BE65B00D4F164 /* UIImageView+SRCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SRCache.m"; sourceTree = "<group>"; };
+		01B9FF2C2A5BE65B00D4F164 /* SRPeriodControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRPeriodControlView.h; sourceTree = "<group>"; };
+		01B9FF2D2A5BE65B00D4F164 /* SRSmallFloatControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRSmallFloatControlView.m; sourceTree = "<group>"; };
+		01B9FF2E2A5BE65B00D4F164 /* SRVehicleBrightnessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRVehicleBrightnessView.m; sourceTree = "<group>"; };
+		01B9FF2F2A5BE65B00D4F164 /* SRUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRUtilities.h; sourceTree = "<group>"; };
+		01B9FF302A5BE65B00D4F164 /* SRPeriodActionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRPeriodActionManager.h; sourceTree = "<group>"; };
+		5D0BA1AF169D78ED9B178268 /* Pods_SRPeriod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SRPeriod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC51413648F4DC24FC276BBE /* Pods-SRPeriod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRPeriod.release.xcconfig"; path = "Target Support Files/Pods-SRPeriod/Pods-SRPeriod.release.xcconfig"; sourceTree = "<group>"; };
+		DEC059DA02FA3F3E84DFC7EE /* Pods-SRPeriod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRPeriod.debug.xcconfig"; path = "Target Support Files/Pods-SRPeriod/Pods-SRPeriod.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01B9FEC12A5BE64200D4F164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F756A85C31DD235C76060ACD /* Pods_SRPeriod.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B9FEBB2A5BE64200D4F164 = {
+			isa = PBXGroup;
+			children = (
+				01B9FEC62A5BE64200D4F164 /* SRPeriod */,
+				01B9FEC52A5BE64200D4F164 /* Products */,
+				952959839FE80172A3CFBAEE /* Pods */,
+				C5338F63757E33004E603B37 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		01B9FEC52A5BE64200D4F164 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01B9FEC42A5BE64200D4F164 /* SRPeriod.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01B9FEC62A5BE64200D4F164 /* SRPeriod */ = {
+			isa = PBXGroup;
+			children = (
+				01B9FF562A5BE67700D4F164 /* Resource */,
+				01B9FEE02A5BE65B00D4F164 /* Classes */,
+				01B9FEC72A5BE64200D4F164 /* AppDelegate.h */,
+				01B9FEC82A5BE64200D4F164 /* AppDelegate.m */,
+				01B9FECD2A5BE64200D4F164 /* ViewController.h */,
+				01B9FECE2A5BE64200D4F164 /* ViewController.m */,
+				01B9FED02A5BE64200D4F164 /* Main.storyboard */,
+				01B9FED32A5BE64500D4F164 /* Assets.xcassets */,
+				01B9FED52A5BE64500D4F164 /* LaunchScreen.storyboard */,
+				01B9FED82A5BE64500D4F164 /* Info.plist */,
+				01B9FED92A5BE64500D4F164 /* main.m */,
+			);
+			path = SRPeriod;
+			sourceTree = "<group>";
+		};
+		01B9FEE02A5BE65B00D4F164 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				01B9FF0F2A5BE65B00D4F164 /* ControlView */,
+				01B9FEE12A5BE65B00D4F164 /* Core */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		01B9FEE12A5BE65B00D4F164 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				01B9FF0D2A5BE65B00D4F164 /* SRAutoScrollLabel.h */,
+				01B9FEF22A5BE65B00D4F164 /* SRAutoScrollLabel.m */,
+				01B9FEEE2A5BE65B00D4F164 /* SRFloatView.h */,
+				01B9FF072A5BE65B00D4F164 /* SRFloatView.m */,
+				01B9FF0C2A5BE65B00D4F164 /* SRKVOController.h */,
+				01B9FEF42A5BE65B00D4F164 /* SRKVOController.m */,
+				01B9FEF52A5BE65B00D4F164 /* SRLandscapeRotationManager_iOS15.h */,
+				01B9FF0B2A5BE65B00D4F164 /* SRLandscapeRotationManager_iOS15.m */,
+				01B9FEE72A5BE65B00D4F164 /* SRLandscapeRotationManager_iOS16.h */,
+				01B9FEFE2A5BE65B00D4F164 /* SRLandscapeRotationManager_iOS16.m */,
+				01B9FEE62A5BE65B00D4F164 /* SRLandscapeRotationManager.h */,
+				01B9FF002A5BE65B00D4F164 /* SRLandscapeRotationManager.m */,
+				01B9FEEB2A5BE65B00D4F164 /* SRLandscapeViewController_iOS15.h */,
+				01B9FEFC2A5BE65B00D4F164 /* SRLandscapeViewController_iOS15.m */,
+				01B9FEFA2A5BE65B00D4F164 /* SRLandscapeViewController.h */,
+				01B9FEE22A5BE65B00D4F164 /* SRLandscapeViewController.m */,
+				01B9FEE52A5BE65B00D4F164 /* SRLandscapeWindow.h */,
+				01B9FEFF2A5BE65B00D4F164 /* SRLandscapeWindow.m */,
+				01B9FEF92A5BE65B00D4F164 /* SROrientationObserver.h */,
+				01B9FF082A5BE65B00D4F164 /* SROrientationObserver.m */,
+				01B9FF022A5BE65B00D4F164 /* SRPeriodController.h */,
+				01B9FEE32A5BE65B00D4F164 /* SRPeriodController.m */,
+				01B9FF052A5BE65B00D4F164 /* SRPeriodGestureControl.h */,
+				01B9FEEF2A5BE65B00D4F164 /* SRPeriodGestureControl.m */,
+				01B9FF032A5BE65B00D4F164 /* SRPeriodLogManager.h */,
+				01B9FEF12A5BE65B00D4F164 /* SRPeriodLogManager.m */,
+				01B9FEF72A5BE65B00D4F164 /* SRPeriodNotification.h */,
+				01B9FF092A5BE65B00D4F164 /* SRPeriodNotification.m */,
+				01B9FEF82A5BE65B00D4F164 /* SRPeriodStateWithback.h */,
+				01B9FEF62A5BE65B00D4F164 /* SRPeriodTransition.h */,
+				01B9FF0A2A5BE65B00D4F164 /* SRPeriodTransition.m */,
+				01B9FF042A5BE65B00D4F164 /* SRPeriodView.h */,
+				01B9FEF02A5BE65B00D4F164 /* SRPeriodView.m */,
+				01B9FEEC2A5BE65B00D4F164 /* SRPersentInteractiveTransition.h */,
+				01B9FEFB2A5BE65B00D4F164 /* SRPersentInteractiveTransition.m */,
+				01B9FEFD2A5BE65B00D4F164 /* SRPortraitViewController.h */,
+				01B9FEE92A5BE65B00D4F164 /* SRPortraitViewController.m */,
+				01B9FEEA2A5BE65B00D4F164 /* SRPrimaryConst.h */,
+				01B9FEF32A5BE65B00D4F164 /* SRPrimaryStage.h */,
+				01B9FEE82A5BE65B00D4F164 /* SRPrimaryViewControl.h */,
+				01B9FF062A5BE65B00D4F164 /* SRReachabilityManager.h */,
+				01B9FEED2A5BE65B00D4F164 /* SRReachabilityManager.m */,
+				01B9FF012A5BE65B00D4F164 /* UIScrollView+conditions.h */,
+				01B9FEE42A5BE65B00D4F164 /* UIScrollView+conditions.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		01B9FF0F2A5BE65B00D4F164 /* ControlView */ = {
+			isa = PBXGroup;
+			children = (
+				01B9FF232A5BE65B00D4F164 /* SRBaseView.h */,
+				01B9FF132A5BE65B00D4F164 /* SRBaseView.m */,
+				01B9FF252A5BE65B00D4F164 /* SRLightControlView.h */,
+				01B9FF192A5BE65B00D4F164 /* SRLightControlView.m */,
+				01B9FF172A5BE65B00D4F164 /* SRLoadingView.h */,
+				01B9FF262A5BE65B00D4F164 /* SRLoadingView.m */,
+				01B9FF152A5BE65B00D4F164 /* SRNetworkSpeedMonitor.h */,
+				01B9FF282A5BE65B00D4F164 /* SRNetworkSpeedMonitor.m */,
+				01B9FF302A5BE65B00D4F164 /* SRPeriodActionManager.h */,
+				01B9FF1A2A5BE65B00D4F164 /* SRPeriodActionManager.m */,
+				01B9FF2C2A5BE65B00D4F164 /* SRPeriodControlView.h */,
+				01B9FF1F2A5BE65B00D4F164 /* SRPeriodControlView.m */,
+				01B9FF2A2A5BE65B00D4F164 /* SRPeriodManager.h */,
+				01B9FF202A5BE65B00D4F164 /* SRPeriodManager.m */,
+				01B9FF122A5BE65B00D4F164 /* SRPeriodProtocol.h */,
+				01B9FF212A5BE65B00D4F164 /* SRPeriodStatusBar.h */,
+				01B9FF112A5BE65B00D4F164 /* SRPeriodStatusBar.m */,
+				01B9FF272A5BE65B00D4F164 /* SRPortraitControlView.h */,
+				01B9FF162A5BE65B00D4F164 /* SRPortraitControlView.m */,
+				01B9FF182A5BE65B00D4F164 /* SRSliderView.h */,
+				01B9FF242A5BE65B00D4F164 /* SRSliderView.m */,
+				01B9FF1D2A5BE65B00D4F164 /* SRSmallFloatControlView.h */,
+				01B9FF2D2A5BE65B00D4F164 /* SRSmallFloatControlView.m */,
+				01B9FF142A5BE65B00D4F164 /* SRSpeedLaughView.h */,
+				01B9FF292A5BE65B00D4F164 /* SRSpeedLaughView.m */,
+				01B9FF2F2A5BE65B00D4F164 /* SRUtilities.h */,
+				01B9FF1B2A5BE65B00D4F164 /* SRUtilities.m */,
+				01B9FF1C2A5BE65B00D4F164 /* SRVehicleBrightnessView.h */,
+				01B9FF2E2A5BE65B00D4F164 /* SRVehicleBrightnessView.m */,
+				01B9FF1E2A5BE65B00D4F164 /* UIImageView+SRCache.h */,
+				01B9FF2B2A5BE65B00D4F164 /* UIImageView+SRCache.m */,
+				01B9FF222A5BE65B00D4F164 /* UIView+SRFrame.h */,
+				01B9FF102A5BE65B00D4F164 /* UIView+SRFrame.m */,
+			);
+			path = ControlView;
+			sourceTree = "<group>";
+		};
+		01B9FF562A5BE67700D4F164 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				01B9FF0E2A5BE65B00D4F164 /* SRPeriod.bundle */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		952959839FE80172A3CFBAEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEC059DA02FA3F3E84DFC7EE /* Pods-SRPeriod.debug.xcconfig */,
+				DC51413648F4DC24FC276BBE /* Pods-SRPeriod.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C5338F63757E33004E603B37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D0BA1AF169D78ED9B178268 /* Pods_SRPeriod.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01B9FEC32A5BE64200D4F164 /* SRPeriod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01B9FEDD2A5BE64500D4F164 /* Build configuration list for PBXNativeTarget "SRPeriod" */;
+			buildPhases = (
+				0B0A07E38B38D34E749A6478 /* [CP] Check Pods Manifest.lock */,
+				01B9FEC02A5BE64200D4F164 /* Sources */,
+				01B9FEC12A5BE64200D4F164 /* Frameworks */,
+				01B9FEC22A5BE64200D4F164 /* Resources */,
+				AB0E89E431F1F5A6D2377B5D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SRPeriod;
+			productName = SRPeriod;
+			productReference = 01B9FEC42A5BE64200D4F164 /* SRPeriod.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01B9FEBC2A5BE64200D4F164 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					01B9FEC32A5BE64200D4F164 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 01B9FEBF2A5BE64200D4F164 /* Build configuration list for PBXProject "SRPeriod" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01B9FEBB2A5BE64200D4F164;
+			productRefGroup = 01B9FEC52A5BE64200D4F164 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01B9FEC32A5BE64200D4F164 /* SRPeriod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01B9FEC22A5BE64200D4F164 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B9FED72A5BE64500D4F164 /* LaunchScreen.storyboard in Resources */,
+				01B9FED42A5BE64500D4F164 /* Assets.xcassets in Resources */,
+				01B9FED22A5BE64200D4F164 /* Main.storyboard in Resources */,
+				01B9FF452A5BE65B00D4F164 /* SRPeriod.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B0A07E38B38D34E749A6478 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SRPeriod-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB0E89E431F1F5A6D2377B5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SRPeriod/Pods-SRPeriod-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SRPeriod/Pods-SRPeriod-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SRPeriod/Pods-SRPeriod-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01B9FEC02A5BE64200D4F164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B9FF492A5BE65B00D4F164 /* SRPortraitControlView.m in Sources */,
+				01B9FECF2A5BE64200D4F164 /* ViewController.m in Sources */,
+				01B9FF462A5BE65B00D4F164 /* UIView+SRFrame.m in Sources */,
+				01B9FF3C2A5BE65B00D4F164 /* SRLandscapeViewController_iOS15.m in Sources */,
+				01B9FF432A5BE65B00D4F164 /* SRPeriodTransition.m in Sources */,
+				01B9FF552A5BE65B00D4F164 /* SRVehicleBrightnessView.m in Sources */,
+				01B9FF4B2A5BE65B00D4F164 /* SRPeriodActionManager.m in Sources */,
+				01B9FF422A5BE65B00D4F164 /* SRPeriodNotification.m in Sources */,
+				01B9FF3F2A5BE65B00D4F164 /* SRLandscapeRotationManager.m in Sources */,
+				01B9FF3B2A5BE65B00D4F164 /* SRPersentInteractiveTransition.m in Sources */,
+				01B9FF362A5BE65B00D4F164 /* SRPeriodGestureControl.m in Sources */,
+				01B9FF322A5BE65B00D4F164 /* SRPeriodController.m in Sources */,
+				01B9FF442A5BE65B00D4F164 /* SRLandscapeRotationManager_iOS15.m in Sources */,
+				01B9FF3A2A5BE65B00D4F164 /* SRKVOController.m in Sources */,
+				01B9FEC92A5BE64200D4F164 /* AppDelegate.m in Sources */,
+				01B9FF382A5BE65B00D4F164 /* SRPeriodLogManager.m in Sources */,
+				01B9FF4C2A5BE65B00D4F164 /* SRUtilities.m in Sources */,
+				01B9FEDA2A5BE64500D4F164 /* main.m in Sources */,
+				01B9FF4E2A5BE65B00D4F164 /* SRPeriodManager.m in Sources */,
+				01B9FF512A5BE65B00D4F164 /* SRNetworkSpeedMonitor.m in Sources */,
+				01B9FF402A5BE65B00D4F164 /* SRFloatView.m in Sources */,
+				01B9FF312A5BE65B00D4F164 /* SRLandscapeViewController.m in Sources */,
+				01B9FF4A2A5BE65B00D4F164 /* SRLightControlView.m in Sources */,
+				01B9FF4D2A5BE65B00D4F164 /* SRPeriodControlView.m in Sources */,
+				01B9FF502A5BE65B00D4F164 /* SRLoadingView.m in Sources */,
+				01B9FF372A5BE65B00D4F164 /* SRPeriodView.m in Sources */,
+				01B9FF352A5BE65B00D4F164 /* SRReachabilityManager.m in Sources */,
+				01B9FF522A5BE65B00D4F164 /* SRSpeedLaughView.m in Sources */,
+				01B9FF4F2A5BE65B00D4F164 /* SRSliderView.m in Sources */,
+				01B9FF542A5BE65B00D4F164 /* SRSmallFloatControlView.m in Sources */,
+				01B9FF332A5BE65B00D4F164 /* UIScrollView+conditions.m in Sources */,
+				01B9FF472A5BE65B00D4F164 /* SRPeriodStatusBar.m in Sources */,
+				01B9FF532A5BE65B00D4F164 /* UIImageView+SRCache.m in Sources */,
+				01B9FF342A5BE65B00D4F164 /* SRPortraitViewController.m in Sources */,
+				01B9FF3E2A5BE65B00D4F164 /* SRLandscapeWindow.m in Sources */,
+				01B9FF392A5BE65B00D4F164 /* SRAutoScrollLabel.m in Sources */,
+				01B9FF3D2A5BE65B00D4F164 /* SRLandscapeRotationManager_iOS16.m in Sources */,
+				01B9FF412A5BE65B00D4F164 /* SROrientationObserver.m in Sources */,
+				01B9FF482A5BE65B00D4F164 /* SRBaseView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		01B9FED02A5BE64200D4F164 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01B9FED12A5BE64200D4F164 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01B9FED52A5BE64500D4F164 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01B9FED62A5BE64500D4F164 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01B9FEDB2A5BE64500D4F164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01B9FEDC2A5BE64500D4F164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01B9FEDE2A5BE64500D4F164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEC059DA02FA3F3E84DFC7EE /* Pods-SRPeriod.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SRPeriod/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WhiteWhaleTech.SRPeriod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01B9FEDF2A5BE64500D4F164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC51413648F4DC24FC276BBE /* Pods-SRPeriod.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SRPeriod/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WhiteWhaleTech.SRPeriod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01B9FEBF2A5BE64200D4F164 /* Build configuration list for PBXProject "SRPeriod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B9FEDB2A5BE64500D4F164 /* Debug */,
+				01B9FEDC2A5BE64500D4F164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01B9FEDD2A5BE64500D4F164 /* Build configuration list for PBXNativeTarget "SRPeriod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B9FEDE2A5BE64500D4F164 /* Debug */,
+				01B9FEDF2A5BE64500D4F164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01B9FEBC2A5BE64200D4F164 /* Project object */;
+}
